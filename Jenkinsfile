@@ -5,7 +5,7 @@ pipeline {
             steps {
                 script {
                     git branch: 'main',
-                        url: 'https://github.com/hersannfonseca/qa-cypress-demoblaze-testing'
+                        url: 'https://github.com/roman-noah/qa-cypress-demoblaze.testing.git'
                 }
             }
         }
